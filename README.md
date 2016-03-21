@@ -1,6 +1,20 @@
 # stylint-json-reporter
 JSON formatted reporter for [Stylint](https://github.com/rossPatton/stylint)
 
+## Install
+
+To install for local project:
+
+```
+npm install stylint-json-reporter
+```
+
+Or to install as global package:
+
+```
+npm install -g stylint-json-reporter
+```
+
 ## Usage
 
 ### CLI
