@@ -33,3 +33,9 @@ const stylint = require('stylint')('path/to/stylus/', {
     ...
 }, callbackFn).create();
 ```
+
+## Changelog
+
+### [0.1.0] - 2016-03-21
+
+First public version of reporter and package.json
