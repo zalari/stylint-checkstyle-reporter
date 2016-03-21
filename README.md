@@ -34,7 +34,20 @@ const stylint = require('stylint')('path/to/stylus/', {
 }, callbackFn).create();
 ```
 
+## Tests
+
+Just run:
+
+```
+npm install
+npm run test
+```
+
 ## Changelog
+
+### [0.2.0] - 2016-03-21
+
+Added tests and coverage
 
 ### [0.1.0] - 2016-03-21
 
