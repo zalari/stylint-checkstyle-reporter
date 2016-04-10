@@ -49,10 +49,12 @@ describe('stylint-json-reporter', () => {
         stylintInstance.state.severity = '';
         stylintInstance.reporter('leading zeros for decimal points are required');
         stylintInstance.cache.lineNo   = 10;
+        stylintInstance.cache.columnNo = 16;
         stylintInstance.state.severity = 'Warning';
         stylintInstance.reporter('unnecessary semicolon found');
         stylintInstance.cache.file     = 'file.styl';
         stylintInstance.cache.lineNo   = 21;
+        stylintInstance.cache.columnNo = 4;
         stylintInstance.state.severity = 'Error';
         stylintInstance.reporter('property is not valid');
 
@@ -73,10 +75,12 @@ describe('stylint-json-reporter', () => {
         expect(secondMessage.severity).to.equal('Warning');
         expect(secondMessage.message).to.equal('unnecessary semicolon found');
         expect(secondMessage.line).to.equal(10);
+        expect(secondMessage.column).to.equal(16);
 
         var thirdMessage = report.messages[2];
         expect(thirdMessage.severity).to.equal('Error');
         expect(thirdMessage.message).to.equal('property is not valid');
         expect(thirdMessage.line).to.equal(21);
+        expect(thirdMessage.column).to.equal(4);
     });
 });

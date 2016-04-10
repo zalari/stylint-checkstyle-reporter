@@ -23,7 +23,8 @@ module.exports = function (message, done) {
         severity: this.state.severity,
         message : message,
         rule    : this.cache.rule,
-        line    : this.cache.lineNo
+        line    : this.cache.lineNo,
+        column  : this.cache.columnNo
     });
 
     return '';

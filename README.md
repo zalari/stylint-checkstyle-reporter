@@ -59,6 +59,10 @@ npm run test
 
 ## Changelog
 
+### [0.3.0] - 2016-04-10
+
+Added support for column numbers. Introduced in Stylint 1.3.8.
+
 ### [0.2.0] - 2016-03-21
 
 Added tests and coverage
