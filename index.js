@@ -24,7 +24,7 @@ module.exports = function (message, done) {
         message : message,
         rule    : this.cache.rule,
         line    : this.cache.lineNo,
-        column  : this.cache.columnNo
+        column  : this.cache.col
     });
 
     return '';
