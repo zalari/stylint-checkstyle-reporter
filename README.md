@@ -59,9 +59,13 @@ npm run test
 
 ## Changelog
 
+### [0.3.1] - 2016-10-05
+
+Fix column property name mismatch. PR #2.
+
 ### [0.3.0] - 2016-04-10
 
-Added support for column numbers. Introduced in Stylint 1.3.8.
+Added support for column numbers.
 
 ### [0.2.0] - 2016-03-21
 
