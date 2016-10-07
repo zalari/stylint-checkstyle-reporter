@@ -61,7 +61,7 @@ npm run test
 
 ### [0.3.1] - 2016-10-05
 
-Fix column property name mismatch. PR #2.
+Fix column property name mismatch. [PR #2](https://github.com/sertae/stylint-json-reporter/pull/2).
 
 ### [0.3.0] - 2016-04-10
 
